@@ -92,7 +92,7 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
 
 -(void)cordovaViewWillAppear:(NSNotification*)notification
 {
-    [self resizeWebView];
+//     [self resizeWebView];
 }
 
 -(void)statusBarDidChangeFrame:(NSNotification*)notification
